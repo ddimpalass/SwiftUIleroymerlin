@@ -19,7 +19,7 @@ struct SeeAllCell: View {
                 ZStack {
                     Circle()
                         .frame(width: 40, height: 40)
-                        .foregroundColor(Color("mainColor"))
+                        .foregroundColor(Color("MainColor"))
                     Image(systemName: "chevron.right")
                         .foregroundColor(.white)
                 }

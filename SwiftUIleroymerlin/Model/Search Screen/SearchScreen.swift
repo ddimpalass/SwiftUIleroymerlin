@@ -24,7 +24,7 @@ struct SearchScreen: View {
         NavigationView {
             ZStack {
                 VStack {
-                    Color("mainColor")
+                    Color("MainColor")
                         .edgesIgnoringSafeArea(.top)
                         .frame(height: 0)
                     Spacer()
@@ -83,7 +83,7 @@ struct SearchBar: View {
                     .cornerRadius(5)
                     .frame(width: 40, height: 37, alignment: .trailing)
                     .padding(5)
-                    .foregroundColor(Color("mainColor"))
+                    .foregroundColor(Color("MainColor"))
                 Image(systemName: "magnifyingglass")
                     .foregroundColor(.white)
             }
@@ -102,7 +102,7 @@ struct SearchBar: View {
         }
         .padding(.vertical, 5)
         .padding(.bottom, 20)
-        .background(Color("mainColor"))
+        .background(Color("MainColor"))
         
     }
 }

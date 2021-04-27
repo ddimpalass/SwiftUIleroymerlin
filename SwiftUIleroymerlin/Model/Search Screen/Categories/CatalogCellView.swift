@@ -14,7 +14,7 @@ struct CatalogCellView: View {
         ZStack {
             Rectangle()
                 .cornerRadius(5)
-                .foregroundColor(Color("mainColor"))
+                .foregroundColor(Color("MainColor"))
             VStack {
                 HStack {
                     Text(category.categoryName)
