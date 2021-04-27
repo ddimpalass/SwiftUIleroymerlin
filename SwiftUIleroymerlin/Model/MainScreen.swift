@@ -37,7 +37,7 @@ struct MainScreen: View {
                     Text("Корзина")
                 }
         }
-        .accentColor(Color("mainColor"))
+        .accentColor(Color("MainColor"))
     }
 }
 
